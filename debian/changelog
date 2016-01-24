@@ -1,3 +1,19 @@
+augeas (1.2.0-0.2+deb8u1) jessie-proposed-updates; urgency=medium
+
+  * Non-maintainer upload.
+
+  [ Yann Soubeyrand ]
+  * Httpd lense:
+    - Allow EOL comments after section tags (thanks Dominic Cleal from Red
+      Hat for reporting the patch) (Closes: #802665)
+    - Include /etc/apache2/conf-available directory (Closes: #764699)
+
+  [ Mattia Rizzolo ]
+  * debian/patches/0003-Httpd-Allow-eol-comments-after-section-tags.patch:
+    + Rewrite DEP-3 header.
+
+ -- Yann Soubeyrand <yann-externe.soubeyrand@edf.fr>  Thu, 17 Dec 2015 11:31:48 +0100
+
 augeas (1.2.0-0.2) unstable; urgency=medium
 
   * Non-maintainer upload

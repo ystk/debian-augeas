@@ -1,0 +1,13 @@
+Description: Httpd: Include /etc/apache2/conf-available directory
+Origin: upstream, https://github.com/hercules-team/augeas/commit/f99de5dfe072f20f4c2f7c79083c6ddd04aef26c
+Bug-Debian: https://bugs.debian.org/764699
+--- a/lenses/httpd.aug
++++ b/lenses/httpd.aug
+@@ -94,6 +94,7 @@
+              (incl "/etc/apache2/httpd.conf") .
+              (incl "/etc/apache2/ports.conf") .
+              (incl "/etc/apache2/conf.d/*") .
++             (incl "/etc/apache2/conf-available/*") .
+              (incl "/etc/apache2/mods-available/*") .
+              (incl "/etc/apache2/sites-available/*") .
+              (incl "/etc/httpd/conf.d/*.conf") .

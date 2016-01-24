@@ -1,2 +1,4 @@
 0001-Install-vim-addons-into-correct-directory.patch
 0002-Skip-tests-that-need-root-privileges-when-fakeroot-h.patch
+0003-Httpd-Allow-eol-comments-after-section-tags.patch
+0004-Httpd-Include-conf-available-directory.patch
